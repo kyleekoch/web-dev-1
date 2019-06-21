@@ -66,17 +66,18 @@ header {
     background-color: black;
 }
 
+.placeholder-01 {
+  text-align: center;
+  padding: 3em;
+}
 
 
 h1 {
   font-family: 'Montserrat-Regular';
   font-weight: normal;
-  font-size: 45px;
+  font-size: 105px;
   color: #4f6c6b;
-  text-align: right;
-  position: absolute;
-  right: 300px;
-  top: 100px;
+  text-align: center;
 }
 
 h2 {
@@ -93,12 +94,9 @@ h2 {
 p {
 font-family: 'JosefinSans-Thin';
 font-weight: lighter;
-font-size: 25px;
+font-size: 75px;
 color: #332F33;
-text-align: right;
-position: absolute;
-right: 55px;
-top: 400px;
+text-align: center;
 }
 
 
@@ -133,9 +131,10 @@ top: 400px;
 }
 
 .form-01 {
-  text-align: right;
+  text-align: center;
   font-family: 'JosefinSans-Thin';
   font-size: 45px;
+  padding: 3em;
 }
 
 h4 {
@@ -154,8 +153,9 @@ text-align: center;
 
 .address-01 {
   font-family: 'JosefinSans-Thin';
-  font-size: 75px;
+  font-size: 100px;
   text-align: center;
+  padding: 2em;
 
 }
 
@@ -195,4 +195,11 @@ h6 {
   top: 1200px;
   right: 2500px;
   left: 2500px;
+}
+
+.recipe {
+  text-align: center;
+  font-family: 'JosefinSans-Thin';
+  font-size: 45px;
+  padding: 3em;
 }
