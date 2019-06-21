@@ -25,9 +25,45 @@ li a {
   border: 5px solid #f7ddd9;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #f7ddd9;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+  font-family: 'Bebas-Regular';
+  font-size: 12px;
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 7em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #020943;
+    background-color: #4f6c6b;
+
 }
 
 .title-02 {
@@ -160,4 +196,35 @@ hr {
 .me {
   text-align: center;
   padding: 2em 2em;
+}
+
+.montana {
+  text-align: center;
+}
+
+.forms {
+  text-align: center;
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 35px;
+  color: #4f6c6b;
+  padding: 2em;
+}
+
+.feedback {
+  text-align: center;
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 35px;
+  color: #4f6c6b;
+  padding: 0em;
+}
+
+.work {
+  text-align: center;
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 35px;
+  color: #4f6c6b;
+  padding: 2em;
 }
