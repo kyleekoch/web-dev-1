@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'JosefinSans-Thin';
-  src: url('../fonts/JosefinSans-Thin.ttf') format('truetype');
-  font-weight: lighter;
+  font-family: 'Bebas-Regular';
+  src: url('../fonts/Bebas-Regular.otf') format('opentype');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat-Regular';
-  src: url('../fonts/Montserrat-Regular.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'Merriweather-Light';
+  src: url('../fonts/Merriweather-Light.otf') format('opentype');
+  font-weight: lighter;
   font-style: normal;
 
 }

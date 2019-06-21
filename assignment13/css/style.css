@@ -1,198 +1,163 @@
 * {
-  background-color: #DCDCDC;
+  background-color: #ededed;
 }
 
-
-header {
-    background-color: #f7ddd9;
-    font-family:'Montserrat-Regular';
-    font-size: 12pt;
-    text-transform: uppercase;
-    margin: 0;
-    height: 5.15em;
-    text-align: right;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f7ddd9;
+  border: 5px solid  #4f6c6b;
 }
 
-/* Set the layout of the menu: */
-.menu-item {
-    display: inline-block;
-    margin: 0.5em 0;
-    min-width: 20em;
-    text-align: center;
-    background-color: #f7ddd9;
-    padding: 0.5em 0.5em;
+li {
+  float: left;
 }
 
-/* Style the links: */
-.menu-item a {
-    color: black;
-    text-decoration: none;
-}
-.menu-item:hover {
-    background-color: white;
-}
-
-/* Add a dropdown feature: */
-.dropdown {
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    border: 1px solid #000;
-    margin: 0;
-    margin-top: 0.5em;
-    color: #000;
-    background-color: #fff;
-    z-index: 1;
-}
-.dropdown-content a {
-    color: #000;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
+li a {
+  display: block;
+  font-family: 'Bebas-Regular';
+  color: #020943;
+  text-align: center;
+  padding: 54px 56px;
+  text-decoration: none;
+  border: 5px solid #f7ddd9;
 }
 
-/* Style dropdown item display: */
-.dropdown-item {
-    display: block;
-    text-align: left;
-    margin: 0;
-    padding: 0.5em;
-    min-width: 7em;
-}
-.dropdown-item:hover, .dropdown-item:hover a {
-    color: grey;
-    background-color: black;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f7ddd9;
 }
 
-
-
-h1 {
-  font-family: 'Montserrat-Regular';
+.title-02 {
+  font-family: 'Bebas-Regular';
   font-weight: normal;
-  font-size: 45px;
-  color: #4f6c6b;
-  text-align: right;
-  position: absolute;
-  right: 300px;
-  top: 100px;
-}
-
-h2 {
-  font-family: 'Montserrat-Regular';
-  font-weight: normal;
-  font-size: 25px;
-  color: #4f6c6b;
-  text-align: right;
-  position: absolute;
-  right: 450px;
-  top: 200px;
-}
-
-p {
-font-family: 'JosefinSans-Thin';
-font-weight: lighter;
-font-size: 25px;
-color: #332F33;
-text-align: right;
-position: absolute;
-right: 55px;
-top: 400px;
-}
-
-
-.title {
-  font-family: 'Montserrat-Regular';
-  font-weight: normal;
-  font-size: 100px;
-  color: #4f6c6b;
-  text-align: center;
-    border: 1px solid black;
-
-}
-
-.para {
-  font-family: 'JosefinSans-Thin';
-  font-weight: lighter;
-  font-size: 85px;
-  color: #332F33;
-  text-align: center;
-  position: absolute;
-  top: 500px;
-  left: 400px;
-  right: 400px;
-}
-
-.placeholder03 {
-  position: absolute;
-  top: 1000px;
-  left: 1500px;
-  right: 400px;
-  text-align: inline-block;
-}
-
-.form-01 {
-  text-align: right;
-  font-family: 'JosefinSans-Thin';
-  font-size: 45px;
-}
-
-h4 {
-  font-family: 'Montserrat-Regular';
-  font-size: 120px;
-  color: #4f6c6b;
-  text-align: center;
-    border: 1px solid black;
-}
-
-.comments-01 {
-  font-family: 'JosefinSans-Thin';
-  font-size: 45px;
-text-align: center;
-}
-
-.address-01 {
-  font-family: 'JosefinSans-Thin';
-  font-size: 75px;
-  text-align: center;
-
-}
-
-h5 {
-  font-family: 'Montserrat-Regular';
-  font-size: 100px;
-    color: #4f6c6b;
-  text-align: center;
-  border: 1px solid black;
-}
-
-h6 {
-  font-family: 'Montserrat-Regular';
-  font-size: 100px;
-    color: #4f6c6b;
-  position: absolute;
-  top: 600px;
-  right: 1250px;
-  left: 1250px;
-  border: 1px solid black;
-}
-
-.story-01 {
-  font-family: 'JosefinSans-Thin';
-  font-size: 25px;
-  color: #332F33;
+  font-size: 300px;
   text-align: center;
   padding: 0.5em;
+  color: #020943;
+}
+
+.welcome-01 {
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 105px;
+  text-align: center;
+  color: #4f6c6b;
+  padding: 2em;
 
 }
 
-.table-01 {
-  font-family: 'Montserrat-Regular';
-  font-size: 15px;
-  color: #332F33;
+.welcome-02 {
+  text-align: center;
+  padding: 3em;
+  border: 15px solid #020943;
+}
+
+hr {
+  width: 100%;
+  height: 30px;
+  background: #f7ddd9;
+
+}
+
+.title-01 {
+  font-family: 'Bebas-Regular';
+  font-weight: normal;
+  font-size: 300px;
+  text-align: center;
+  padding: 0.5em;
+  color: #020943;
+}
+
+.about-me {
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 85px;
+  text-align: center;
+  color: #4f6c6b;
+  padding: 2em 2em;
+  border: 17px solid #020943;
+
+}
+
+.gallery {
+  font-family: 'Bebas-Regular';
+  font-weight: normal;
+  font-size: 300px;
+  text-align: center;
+  padding: 0em;
+  color: #020943;
+}
+
+.art-01 {
   position: absolute;
-  top: 1200px;
-  right: 2500px;
-  left: 2500px;
+  top: 1700px;
+  right: 600px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.art-02 {
+  position: absolute;
+  top: 1700px;
+  right: 2600px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.art-03 {
+  position: absolute;
+  top: 1700px;
+  left: 600px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.art-04 {
+  position: absolute;
+  top: 3200px;
+  left: 1300px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.art-05 {
+  position: absolute;
+  top: 3200px;
+  right: 1300px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.title-03 {
+  font-family: 'Bebas-Regular';
+  font-weight: normal;
+  font-size: 300px;
+  text-align: center;
+  padding: 0em;
+  color: #020943;
+}
+
+.address {
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 85px;
+  text-align: center;
+  color: #4f6c6b;
+}
+
+.number {
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 85px;
+  text-align: center;
+  color: #4f6c6b;
+
+}
+
+.me {
+  text-align: center;
+  padding: 2em 2em;
 }
