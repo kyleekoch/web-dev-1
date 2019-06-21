@@ -1,0 +1,163 @@
+* {
+  background-color: #ededed;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f7ddd9;
+  border: 5px solid  #4f6c6b;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: 'Bebas-Regular';
+  color: #020943;
+  text-align: center;
+  padding: 54px 56px;
+  text-decoration: none;
+  border: 5px solid #f7ddd9;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f7ddd9;
+}
+
+.title-02 {
+  font-family: 'Bebas-Regular';
+  font-weight: normal;
+  font-size: 300px;
+  text-align: center;
+  padding: 0.5em;
+  color: #020943;
+}
+
+.welcome-01 {
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 105px;
+  text-align: center;
+  color: #4f6c6b;
+  padding: 2em;
+
+}
+
+.welcome-02 {
+  text-align: center;
+  padding: 3em;
+  border: 15px solid #020943;
+}
+
+hr {
+  width: 100%;
+  height: 30px;
+  background: #f7ddd9;
+
+}
+
+.title-01 {
+  font-family: 'Bebas-Regular';
+  font-weight: normal;
+  font-size: 300px;
+  text-align: center;
+  padding: 0.5em;
+  color: #020943;
+}
+
+.about-me {
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 85px;
+  text-align: center;
+  color: #4f6c6b;
+  padding: 2em 2em;
+  border: 17px solid #020943;
+
+}
+
+.gallery {
+  font-family: 'Bebas-Regular';
+  font-weight: normal;
+  font-size: 300px;
+  text-align: center;
+  padding: 0em;
+  color: #020943;
+}
+
+.art-01 {
+  position: absolute;
+  top: 1700px;
+  right: 600px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.art-02 {
+  position: absolute;
+  top: 1700px;
+  right: 2600px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.art-03 {
+  position: absolute;
+  top: 1700px;
+  left: 600px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.art-04 {
+  position: absolute;
+  top: 3200px;
+  left: 1300px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.art-05 {
+  position: absolute;
+  top: 3200px;
+  right: 1300px;
+  padding: 2em 2em;
+  border: 20px solid #4f6c6b;
+}
+
+.title-03 {
+  font-family: 'Bebas-Regular';
+  font-weight: normal;
+  font-size: 300px;
+  text-align: center;
+  padding: 0em;
+  color: #020943;
+}
+
+.address {
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 85px;
+  text-align: center;
+  color: #4f6c6b;
+}
+
+.number {
+  font-family: 'Merriweather-Light';
+  font-weight: normal;
+  font-size: 85px;
+  text-align: center;
+  color: #4f6c6b;
+
+}
+
+.me {
+  text-align: center;
+  padding: 2em 2em;
+}
